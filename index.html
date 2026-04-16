@@ -5,18 +5,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 
 <body>
     <header class="header">
         <div class="header-container">
-
+           <a class="logo" href="index.html">
+               <span class="logo-web">WEB</span>STUDIO
+            </a>
         
           <nav class="header-nav">
-            <a class="logo" href="index.html">
-                <span class="logo-web">WEB</span>STUDIO
-            </a>
+
             <ul class="nav-list">
                 <li><a class="nav-link" href="./index.html">Studio</a></li>
                 <li><a class="nav-link" href="">Portfolio</a></li>
@@ -35,8 +40,10 @@
     </header>
     <main>
         <section class="hero">
-            <h1>Effective Solutions <br>
+            <h1 class="hero-title">Effective Solutions <br>
                 for Your Business</h1>
+                <br>
+                <br>
             <button class="button" type="button">Order Service</button>
         </section>
         <section class="features">
@@ -102,6 +109,44 @@
                     <p class="team-text">UI Designer</p>
                 </li>
             </ul>
+        </section>
+
+        <section class="portfolia">
+            <div class="portfolia-container">
+              <h2 class="portfolia-title">Our Portfolia</h2>
+              <ul class="portfolia-list">
+                <li class="portfolia-item">
+                    <img src="./images/img5.jpg" alt="Banking App - App" width="360px" height="300px">
+                    <h3 class="portfolia-subtitle">Banking App</h3>
+                    <p class="portfolia-text">App</p>
+                </li>
+                <li class="portfolia-item">
+                    <img src="./images/img6.jpg" alt="Cashless Payment - Marketing" width="360px" height="300px">
+                    <h3 class="portfolia-subtitle">Cashless Payment</h3>
+                    <p class="portfolia-text">Marketing</p>
+                </li>
+                <li class="portfolia-item">
+                    <img src="./images/img7.jpg" alt="Meditations App - App" width="360px" height="300px">
+                    <h3 class="portfolia-subtitle">Meditations App</h3>
+                    <p class="portfolia-text">App</p>
+                </li>
+                <li class="portfolia-item">
+                    <img src="./images/img8.jpg" alt="Taxi Service - Marketing" width="360px" height="300px">
+                    <h3 class="portfolia-subtitle">Taxi Service</h3>
+                    <p class="portfolia-text">Marketing</p>
+                </li>
+                <li class="portfolia-item">
+                    <img src="./images/img9.jpg" alt="Screen Illustrations" width="360px" height="300px">
+                    <h3 class="portfolia-subtitle">Screen Illustrations</h3>
+                    <p class="portfolia-text">Design</p>
+                </li>
+                <li class="portfolia-item">
+                    <img src="./images/img10.jpg" alt="Online - Courses" width="360px" height="300px">
+                    <h3 class="portfolia-subtitle">Online Courses</h3>
+                    <p class="portfolia-text">Marketing</p>
+                </li>
+              </ul>
+            </div>
         </section>
     </main>
     <footer class="footer">
